@@ -4,11 +4,36 @@ Artificial Intelligence assistance -voice command
  
 Η τεχνολογία αναγνώρισης φωνής είναι πολύ χρήσιμη στον αυτοματισμό, η οποία όχι μόνο μας δίνει φωνητικό έλεγχο των συσκευών, αλλά και προσθέτει ασφάλεια στο σύστημα μας. Η αναγνώριση ομιλίας παρέχει επίσης σημαντική βοήθεια σε άτομα που πάσχουν από διάφορες αναπηρίες. Σε αυτό το έργο θα χρησιμοποιήσουμε το nano 33 ble sense ως μια πλατφόρμα οριακά ικανή να “σηκώσει” το πρόγραμμά μας με σκοπό να μπορεί με φωνητικές εντολές να ελέγχει -απομακρυσμένα- το κλείδωμα ή το ξεκλείδωμα μιας πόρτας όπως και άλλων συσκευών.
 ΥΛΙΚΑ
-ΓΙΑ ΤΗΝ ΦΘΗΝΗ ΕΚΔΟΧΗ ΜΟΝΟ nano 33 ble sense ΚΑΙ LED,σύνολο=47 € 
+ΓΙΑ ΤΗΝ ΦΘΗΝΗ ΕΚΔΟΧΗ ΜΟΝΟ nano 33 ble sense ΚΑΙ LED,σύνολο=50 € 
 https://grobotronics.com/arduino-nano-33-ble-sense-with-headers-abx00035.html
  
 (τα led θα δείχνουν την επιτυχία αναγνώρισης φωνής και θα προσομοιάζουν το άνοιγμα και κλείσιμο της κλειδαριάς)
- 
+
+{{Για την πιο φθηνή:(όμως με δύσκολο λογισμικό ανάπτυξης)
+
+ α)esp32 : https://grobotronics.com/esp32-development-board-nodemcu-32s.html
+
+€11.00
+
+ β) BREADBOARD:https://www.hellasdigital.gr/electronics/prototyping/pcb-breadboard/mini-universal-solderless-breadboard-400-tie-points/
+€4,30
+
+γ) μικρόφωνο:
+
+https://www.hellasdigital.gr/electronics/components/nmp441-mems-high-precision-low-power-ultra-small-volume-for-esp32/
+
+€6,20
+
+δ)ενισχυτής ήχου: https://grobotronics.com/adafruit-i2s-3w-class-d-amplifier-breakout-max98357a.html
+
+€7.50
+
+(ηχεία διαθέτουμε)
+
+σύνολο =28,70€
+
+}}
+
 ΓΙΑ ΤΗΝ ακριβή: (ολοκληρωμένο έργο)
 Α) ) nano 33 ble sense with headers :
 https://grobotronics.com/arduino-nano-33-ble-sense-with-headers-abx00035.html
