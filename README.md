@@ -11,9 +11,8 @@ https://grobotronics.com/arduino-nano-33-ble-sense-with-headers-abx00035.html
 
 {{Για την πιο φθηνή:(όμως με δύσκολο λογισμικό ανάπτυξης)
 
- α)esp32 : https://grobotronics.com/esp32-development-board-nodemcu-32s.html
-
-€11.00
+ α)esp32 : https://grobotronics.com/esp32-development-board-devkit-v1.html
+ €9.90
 
  β) BREADBOARD:https://www.hellasdigital.gr/electronics/prototyping/pcb-breadboard/mini-universal-solderless-breadboard-400-tie-points/
 €4,30
@@ -30,7 +29,7 @@ https://www.hellasdigital.gr/electronics/components/nmp441-mems-high-precision-l
 
 (ηχεία διαθέτουμε)
 
-σύνολο =28,70€
+σύνολο =28€
 
 }}
 
