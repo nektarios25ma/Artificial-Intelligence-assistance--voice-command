@@ -8,7 +8,7 @@ Artificial Intelligence assistance -voice command
 
 Στηρίζεται σε δύο κύρια στοιχεία : α) arduino uno με σύνδεση σε κύκλωμα που εμπεριέχει , άνοιγμα κλείσιμο: φωτός ,ανεμιστήρα,τηλεόρασης κ.τ.λ.   β)smartphone με την εφαρμογή αναγνώρισης φωνής που φτιάξαμε με τεχνολογία τεχνητής νοημοσύνης. Η εφαρμογή mit app inventor του κινητού όπως και το πρόγραμμα του arduino (και η συνδεσμολογία του κυκλώματος)θα κοινοποιηθεί σε σύνδεσμο κοινής χρήσης .
 
-Η εφαρμογή του κινητού : https://drive.google.com/file/d/1DAyleREWb_oeiSgXCcUE1LgrkpLdOXdx/view?usp=sharing
+Η εφαρμογή του κινητού ΜΕ ΤΕΧΝΟΛΟΓΊΑ ΑΙ : https://drive.google.com/file/d/1DAyleREWb_oeiSgXCcUE1LgrkpLdOXdx/view?usp=sharing
 
 Το πρόγραμμα του arduino :
 
