@@ -124,13 +124,13 @@ void RightDetection()
 }
 
 
-LiquidCrystal_I2C lcd(0x27,16,2); //定义一个液晶
-#define Lpwm_pin 6 //在這調速   //9
-#define Rpwm_pin 5 //在這調速 //
-int pinLB=A2; // 定義2腳位 左後
-int pinLF=A3; // 定義4腳位 左前
-int pinRB=A1; // 定義7腳位 右後
-int pinRF=A0; // 定義8腳位 右前  //6
+LiquidCrystal_I2C lcd(0x27,16,2); 
+#define Lpwm_pin 6
+#define Rpwm_pin 5
+int pinLB=A2; 
+int pinLF=A3; 
+int pinRB=A1; 
+int pinRF=A0; 
 unsigned char Lpwm_val =155;
 unsigned char Rpwm_val =195;
 int L=0;
@@ -151,30 +151,30 @@ void Set_Speed(unsigned char Left,unsigned char Right)
 analogWrite(Lpwm_pin,Left);
 analogWrite(Rpwm_pin,Right);
 }
-void advance(void) // 前進
+void advance(void) 
 {
 
-digitalWrite(pinLB,LOW); // 使馬達（左後）動作
+digitalWrite(pinLB,LOW); 
 digitalWrite(pinLF,HIGH);
-digitalWrite(pinRB,LOW); // 使馬達（右後）動作
+digitalWrite(pinRB,LOW); 
 digitalWrite(pinRF,HIGH);
 Car_state = 1;
 
 }
 void turnR(void) //右轉(雙輪)
 {
-digitalWrite(pinRB,LOW); //使馬達（右後）動作
+digitalWrite(pinRB,LOW); 
 digitalWrite(pinRF,HIGH);
 digitalWrite(pinLB,HIGH);
-digitalWrite(pinLF,HIGH); //使馬達（左前）動作
+digitalWrite(pinLF,HIGH); 
 Car_state = 4;
 
 }
-void turnL(void) //左轉(雙輪)
+void turnL(void) 
 {
 digitalWrite(pinRB,HIGH);
-digitalWrite(pinRF,HIGH); //使馬達（右前）動作
-digitalWrite(pinLB,LOW); //使馬達（左後）動作
+digitalWrite(pinRF,HIGH); 
+digitalWrite(pinLB,LOW); 
 digitalWrite(pinLF,HIGH);
 Car_state = 3;
 
@@ -188,23 +188,23 @@ digitalWrite(pinLF,HIGH);
 Car_state = 5;
 
 }
-void back(void) //後退
+void back(void) 
 {
 
-digitalWrite(pinLB,HIGH); //使馬達（左後）動作
+digitalWrite(pinLB,HIGH); 
 digitalWrite(pinLF,LOW);
-digitalWrite(pinRB,HIGH); //使馬達（右後）動作
+digitalWrite(pinRB,HIGH); 
 digitalWrite(pinRF,LOW);
 Car_state = 2;
 
 }
 
-void LCD1602_init(void) //液晶初始化用到的函数，包罗在这里
+void LCD1602_init(void) 
 {
-lcd.init(); //调用LiquidCrystal_I2C.h里的LCD初始化函数
-delay(10); //延时10毫秒
-lcd.backlight(); //开LCD1602的背光灯
-lcd.clear(); //清除屏幕
+lcd.init(); 
+delay(10); 
+lcd.backlight(); 
+lcd.clear(); 
 }
 
 
@@ -219,7 +219,7 @@ LCD1602_init();
 M_Control_IO_config();
 Set_Speed(Lpwm_val,Rpwm_val);
 
-lcd.setCursor(0, 0); //光标设置在第一行，第一列，也就是左上角
+lcd.setCursor(0, 0); 
 lcd.print(" Wait Signal ");
 stopp();
 
