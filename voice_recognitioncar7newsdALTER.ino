@@ -464,7 +464,7 @@ void playFifthb()
   delay(500);
  
 }
-void playFifth() //κατευθυνθητε σε θερμρνομενους χωρους
+void playFifth() 
 {
   execute_CMD(0x03, 0, 4);
   delay(6500);
@@ -472,7 +472,7 @@ void playFifth() //κατευθυνθητε σε θερμρνομενους χω
   delay(50);
  
 }
-void playSecond() //ΠΡΟΣΟΧΗ ΧΑΜΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
+void playSecond() 
 {
   execute_CMD(0x03, 0, 1);
   delay(7000);
@@ -480,7 +480,7 @@ void playSecond() //ΠΡΟΣΟΧΗ ΧΑΜΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
   delay(50);
  
 }
-void playThird() //ΚΑΤΕΥΘΥΝΘΗΤΕ ΣΕ ΚΛΙΜΑΤΙΖΟΜΕΝΟΥΣ ΧΩΡΟΥΣ
+void playThird() 
 {
   execute_CMD(0x03, 0, 2);
   delay(6500);
@@ -488,7 +488,7 @@ void playThird() //ΚΑΤΕΥΘΥΝΘΗΤΕ ΣΕ ΚΛΙΜΑΤΙΖΟΜΕΝΟΥΣ 
   delay(50);
  
 }
-void playFourth() //ΠΡΟΣΟΧΗ ΥΨΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
+void playFourth() 
 {
   execute_CMD(0x03, 0, 3);
   delay(8000);
@@ -496,7 +496,7 @@ void playFourth() //ΠΡΟΣΟΧΗ ΥΨΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
   delay(50);
  
 }
-void playsix() //ΠΡΟΣΟΧΗ ΥΨΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
+void playsix() 
 {
   execute_CMD(0x03, 0, 6);
   delay(13000);
@@ -505,7 +505,7 @@ void playsix() //ΠΡΟΣΟΧΗ ΥΨΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
  
 }
 
-void playseven() //ΠΡΟΣΟΧΗ ΥΨΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
+void playseven() 
 {
   execute_CMD(0x03, 0, 7);
   delay(14000);
@@ -513,7 +513,7 @@ void playseven() //ΠΡΟΣΟΧΗ ΥΨΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
   delay(50);
  
 }
-void playeight() //ΠΡΟΣΟΧΗ ΥΨΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
+void playeight() 
 {
   execute_CMD(0x03, 0, 8);
   delay(14000);
@@ -521,7 +521,7 @@ void playeight() //ΠΡΟΣΟΧΗ ΥΨΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
   delay(50);
  
 }
-void playnine() //ΠΡΟΣΟΧΗ ΥΨΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
+void playnine() 
 {
   execute_CMD(0x03, 0, 9);
   delay(14000);
@@ -529,7 +529,7 @@ void playnine() //ΠΡΟΣΟΧΗ ΥΨΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
   delay(50);
  
 }
-void playten() //ΠΡΟΣΟΧΗ ΥΨΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
+void playten() 
 {
   execute_CMD(0x03, 0, 10);
   delay(4000);
