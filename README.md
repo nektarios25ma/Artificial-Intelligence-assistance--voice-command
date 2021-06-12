@@ -9,69 +9,104 @@ Artificial Intelligence assistance -voice command.
 σε άτομα που πάσχουν από διάφορες αναπηρίες. 
 
 
-Λίστα προτεινόμενου εξοπλισμού:	ΥΛΙΚΑ
+Λίστα προτεινόμενου εξοπλισμού:	
+ΥΛΙΚΑ
  
-2Χ BREADBOARD:https://www.hellasdigital.gr/electronics/prototyping/pcb-breadboard/mini-universal-solderless-breadboard-400-tie-points/
+2Χ BREADBOARD:
+https://www.hellasdigital.gr/electronics/prototyping/pcb-breadboard/mini-universal-solderless-breadboard-400-tie-points/
 2Χ€4,30
-arduino uno : https://www.hellasdigital.gr/go-create/arduino/uno-r3-atmega328p-ch340g-mini-usb-board-for-compatible-arduino-diy/
+arduino uno :
+https://www.hellasdigital.gr/go-create/arduino/uno-r3-atmega328p-ch340g-mini-usb-board-for-compatible-arduino-diy/
 €6,78
-Jumper Wires : https://www.hellasdigital.gr/electronics/prototyping/cables-pins/40p-10cm-dupont-wire-male-to-male/
+Jumper Wires :
+https://www.hellasdigital.gr/electronics/prototyping/cables-pins/40p-10cm-dupont-wire-male-to-male/
 €2,99
-Μπαταριοθήκη : https://www.hellasdigital.gr/electronics/components/2-cells-18650-li-ion-lithium-battery-holder-w-5.52.1mm-dc-power-plug-connector/  
+Μπαταριοθήκη :
+https://www.hellasdigital.gr/electronics/components/2-cells-18650-li-ion-lithium-battery-holder-w-5.52.1mm-dc-power-plug-connector/  
 €1,24
- ΜΠΑΤΑΡΙΕΣ 18650: https://www.hellasdigital.gr/electronics/batteries/li-ion/panasonic-ncr18650b-battery-18650-3400mah/
+ ΜΠΑΤΑΡΙΕΣ 18650:
+ https://www.hellasdigital.gr/electronics/batteries/li-ion/panasonic-ncr18650b-battery-18650-3400mah/
 2Χ€6,99
-ΣΑΣΙ ΡΟΜΠΟΤ: https://grobotronics.com/robot-smart-car-2wd.html                                   €12.90
-MOTOR DRIVER: https://grobotronics.com/dual-motor-driver-module-l298n.html  €4.20
-MP3 Player: https://grobotronics.com/dfplayer-a-mini-mp3-player.html €9.90
-Κάρτα μνήμης microSD: https://grobotronics.com/microsdhc-16gb-class-10-sandisk-ultra-sdsquar-sdsquar-016g-gn6ma.html €6.90
-Αισθητήρας Υπερήχων: https://grobotronics.com/ultrasonic-sensor-sr04.html €2.50
-Βάση Στήριξης για Αισθητήρα Υπερήχων: https://grobotronics.com/mounting-bracket-for-ultrasonic-sensor.html €0.60
-Servo : https://grobotronics.com/servo-micro-2.2kg.cm-plastic-gears-waveshare-sg90.html €3.60
+ΣΑΣΙ ΡΟΜΠΟΤ:
+https://grobotronics.com/robot-smart-car-2wd.html                                   €12.90
+MOTOR DRIVER:
+https://grobotronics.com/dual-motor-driver-module-l298n.html  €4.20
+MP3 Player:
+https://grobotronics.com/dfplayer-a-mini-mp3-player.html €9.90
+Κάρτα μνήμης microSD:
+https://grobotronics.com/microsdhc-16gb-class-10-sandisk-ultra-sdsquar-sdsquar-016g-gn6ma.html €6.90
+Αισθητήρας Υπερήχων:
+https://grobotronics.com/ultrasonic-sensor-sr04.html €2.50
+Βάση Στήριξης για Αισθητήρα Υπερήχων:
+https://grobotronics.com/mounting-bracket-for-ultrasonic-sensor.html €0.60
+Servo : 
+https://grobotronics.com/servo-micro-2.2kg.cm-plastic-gears-waveshare-sg90.html €3.60
 
-Σερβο βραχίονα στήριξης για servo SG90: https://grobotronics.com/servo-mounting-bracket-sg90.html €0.80
-Μικρό ηχείο: https://www.hellasdigital.gr/electronics/components/8-0.5w-small-trumpet-36mm-diameter-loudspeaker/ €1,20 
-Spacer Ποικιλία : https://www.hellasdigital.gr/electronics/prototyping/brass-buttons/120pcs-m3-male-female-brass-standoff-spacer-assortment-for-pcb/  €9,98
-Bluetooth Module for Arduino: https://grobotronics.com/bluetooth-module-for-arduino-hc05.html €6.80
+Σερβο βραχίονα στήριξης για servo SG90: 
+https://grobotronics.com/servo-mounting-bracket-sg90.html €0.80
+Μικρό ηχείο: 
+https://www.hellasdigital.gr/electronics/components/8-0.5w-small-trumpet-36mm-diameter-loudspeaker/ €1,20 
+Spacer Ποικιλία : 
+https://www.hellasdigital.gr/electronics/prototyping/brass-buttons/120pcs-m3-male-female-brass-standoff-spacer-assortment-for-pcb/  €9,98
+Bluetooth Module for Arduino:
+https://grobotronics.com/bluetooth-module-for-arduino-hc05.html €6.80
+
 ΣΥΝΟΛΟ:90,70€
+
 ΛΟΓΙΣΜΙΚΟ: ARDUINO IDE 
 ΚΑΙ MIT APP INVENTOR
+
 1η προσέγγιση της αναγνώρισης φωνής
 Στηρίζεται σε δύο κύρια στοιχεία :
 α) arduino uno με σύνδεση σε κύκλωμα που ελέγχει 
 είτε άνοιγμα και κλείσιμο συσκευών 
-είτε την λειτουργία ενός μικρού ρομπότ που υπακούει στις εντολές μας και ανοίγει διάλογο μαζί μας    β)smartphone app- εφαρμογή αναγνώρισης φωνής που φτιάξαμε με τεχνολογία τεχνητής νοημοσύνης.
+είτε την λειτουργία ενός μικρού ρομπότ
+που υπακούει στις εντολές μας και ανοίγει διάλογο μαζί μας   
+β)smartphone app- εφαρμογή αναγνώρισης φωνής που φτιάξαμε με τεχνολογία τεχνητής νοημοσύνης.
+
 Η εφαρμογή mit app inventor του κινητού όπως και το πρόγραμμα του arduino 
 (και η συνδεσμολογία του κυκλώματος)θα τα βρείτε ως εικόνες.png .
+
 Η εφαρμογή του κινητού :
 https://drive.google.com/file/d/1DAyleREWb_oeiSgXCcUE1LgrkpLdOXdx/view?usp=sharing
+
 Α)Το πρόγραμμα του arduino για απλό έλεγχο συσκευών-led συμβολικά:
 
 #include <SoftwareSerial.h>
+
 SoftwareSerial BT(10, 11); //TX, RX respetively
 String readdata;
-void setup() {
+
+void setup()
+{
 BT.begin(9600);
 Serial.begin(9600);
 pinMode(3, OUTPUT);
 pinMode(4, OUTPUT); //
 pinMode(5, OUTPUT); //
-// pinMode(6, OUTPUT); //
+
 }
 //-----------------------------------------------------------------------//
-void loop() {
-while (BT.available()){  //Check if there is an available byte to read
+
+void loop()
+{
+while (BT.available())
+{  //Check if there is an available byte to read
 delay(10); //Delay added to make thing stable
 char c = BT.read(); //Conduct a serial read
-readdata += c;   }
-if (readdata.length() > 0) {
+readdata += c;  
+}
+if (readdata.length() > 0)
+{
 Serial.println(readdata); // print data to serial monitor
 if((readdata == "light on")|| (readdata == "Light ON"))
 {
 digitalWrite(3, HIGH);
 }
-else if((readdata == "light off") || (readdata == "light off"))  //δέχεται και ελληνικές φράσεις
-{  digitalWrite(3, LOW);
+else if((readdata == "light off") || (readdata == "light off"))  
+//δέχεται και ελληνικές φράσεις
+{  
+digitalWrite(3, LOW);
 }
 else if (readdata == "fan on")
 {
@@ -89,20 +124,37 @@ else if (( readdata == "tv off") || (readdata == "TV off"))
 {
 digitalWrite (5, LOW);
 }
-readdata="";}} //Reset the variable
+readdata="";
+}
+} //Reset the variable
+
 ΚΥΚΛΩΜΑ,link:
+
 https://drive.google.com/file/d/1iMu3vorPIyGFPI8DEielNVL-gAWGKdJP/view?usp=sharing
-B)Για το ρομπότ που υπακούει –αναγνωρίζει εντολές και κάνει διάλογο αποφάσισα να δώσω τα κυκλώματα διαδοχικά και όχι σε’ένα όλα λόγω περιπλοκότητας (έτσι άλλωστε το φτιάξανε και τα παιδιά ): 
-Α)κυρίως κύκλωμα: ΔΕΣ
+
+
+B)Για το ρομπότ που υπακούει –αναγνωρίζει εντολές και
+κάνει διάλογο αποφάσισα να δώσω τα κυκλώματα διαδοχικά και όχι σε’ένα όλα λόγω περιπλοκότητας 
+(έτσι άλλωστε το φτιάξανε και τα παιδιά ): 
+
+Α)κυρίως κύκλωμα:
+ΔΕΣ
  CIRCUIT.PNG
  
  Β) Bluetooth: TX--> 8 , RX-->7 ,VCC-->5V ΤΟΥ MOTOR DRIVER,GND ΚΟΙΝΟ ΟΛΩΝ ΜΕ ARDUINO
+ 
  ΔΕΣ HC 05.PNG
+ 
 MP3 –ΗΧΕΙΟ
-DFPLAYER.PNG 
+
+DFPLAYER.PNG
+
 ΣΕΡΒΟ : ΤΑ 5VOLT ΚΟΚΚΙΝΟ ΚΑΛΩΔΙΟ ΠΗΓΕ ΤΕΛΙΚΑ ΣΤΑ 5V ΤΟΥ MOTOR DRIVER
+
 ΔΕΣ SERVO.PNG 
+
 ULTRASONIC
+
 ΔΕΣ ULTRASONIC1.PNG
  
 CODE:
@@ -119,13 +171,17 @@ SoftwareSerial mySerial(2, 3); // RX, TX
 
 # define ACTIVATED LOW
 
-SoftwareSerial BT(7, 8); //TX, RX respetively
+SoftwareSerial BT(7, 8); 
+                               //TX, RX respetively
+
 String readdata;
 
 
-unsigned long start_time; // Δημιούργησε μια μεταβλητή τύπου unsigned long integer με όνομα start_time
+unsigned long start_time;
+           // Δημιούργησε μια μεταβλητή τύπου unsigned long integer με όνομα start_time
 
-//ultrasonicservo
+               //ultrasonicservo
+               
 #include "AlphaBot.h"
 
 int ECHO = 12;
@@ -231,33 +287,38 @@ void RightDetection()
   //Serial.println(RightDistance);         
 }
 
+
 #define Lpwm_pin 6 
 #define Rpwm_pin 5
+
 int pinLB=A2; 
 int pinLF=A3; 
 int pinRB=A1; 
 int pinRF=A0; 
+
 unsigned char Lpwm_val =115;
 unsigned char Rpwm_val =115;
 int L=0;
 int R=0;
 int Car_state=0;
 int divtime;
+
 void M_Control_IO_config(void)
 {
 pinMode(pinLB,OUTPUT); 
 pinMode(pinLF,OUTPUT); 
 pinMode(pinRB,OUTPUT); 
 pinMode(pinRF,OUTPUT); 
-pinMode(Lpwm_pin,OUTPUT); // (PWM)
-pinMode(Rpwm_pin,OUTPUT); //  (PWM)
+pinMode(Lpwm_pin,OUTPUT);        // (PWM)
+pinMode(Rpwm_pin,OUTPUT);         //  (PWM)
 }
 void Set_Speed(unsigned char Left,unsigned char Right)
 {
 analogWrite(Lpwm_pin,Left);
 analogWrite(Rpwm_pin,Right);
 }
-void advance(void) // 前進
+void advance(void)
+
 {
 
 digitalWrite(pinLB,LOW); 
@@ -268,6 +329,7 @@ Car_state = 1;
 
 }
 void turnR(void) 
+
 {
 digitalWrite(pinRB,LOW); 
 digitalWrite(pinRF,HIGH);
@@ -277,6 +339,7 @@ Car_state = 4;
 
 }
 void turnL(void) 
+
 {
 digitalWrite(pinRB,HIGH);
 digitalWrite(pinRF,HIGH); 
@@ -285,7 +348,8 @@ digitalWrite(pinLF,HIGH);
 Car_state = 3;
 
 }
-void stopp(void) //停止
+void stopp(void)
+
 {
 digitalWrite(pinRB,HIGH);
 digitalWrite(pinRF,HIGH);
@@ -294,7 +358,8 @@ digitalWrite(pinLF,HIGH);
 Car_state = 5;
 
 }
-void back(void) //後退
+void back(void) 
+
 {
 
 digitalWrite(pinLB,HIGH); 
@@ -328,22 +393,29 @@ stopp();
 
 //-----------------------------------------------------------------------//
 
-void loop() {
+void loop()
+{
   BT.listen();
   FrontDetection();
 Set_Speed(Lpwm_val,Rpwm_val);
   
   
- while (BT.available()){  //Check if there is an available byte to read
+ while (BT.available())
+ {
+ //Check if there is an available byte to read
   delay(10); //Delay added to make thing stable
   char c = BT.read(); //Conduct a serial read
-  readdata += c; //build the string- "forward", "reverse", "left" and "right"
-  } 
-if (readdata.length() > 0) {
+  readdata += c;                                                        
+  }
+  
+if (readdata.length() > 0)
+{
 
 Serial.println(readdata); // print data to serial monitor
 
+
 if((readdata == "go")|| (readdata == "μπροστά")|| (readdata == "προχώρα")||(readdata == "A"))
+
 
 {
         FrontDetection();
@@ -354,6 +426,7 @@ if((readdata == "go")|| (readdata == "μπροστά")|| (readdata == "προχ�
 }
 
 else if((readdata == "stop") || (readdata == "σταμάτα")||(readdata == "σταμάτησε")||(readdata == "σεμνά")||(readdata == "L"))
+
 {
        stopp();
        
@@ -572,7 +645,7 @@ void playFifthb()
   delay(500);
  
 }
-void playFifth() //κατευθυνθητε σε θερμρνομενους χωρους
+void playFifth()
 {
   execute_CMD(0x03, 0, 4);
   delay(6500);
@@ -580,7 +653,7 @@ void playFifth() //κατευθυνθητε σε θερμρνομενους χω
   delay(50);
  
 }
-void playSecond() //ΠΡΟΣΟΧΗ ΧΑΜΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
+void playSecond() 
 {
   execute_CMD(0x03, 0, 1);
   delay(7000);
@@ -588,7 +661,7 @@ void playSecond() //ΠΡΟΣΟΧΗ ΧΑΜΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
   delay(50);
  
 }
-void playThird() //ΚΑΤΕΥΘΥΝΘΗΤΕ ΣΕ ΚΛΙΜΑΤΙΖΟΜΕΝΟΥΣ ΧΩΡΟΥΣ
+void playThird() 
 {
   execute_CMD(0x03, 0, 2);
   delay(6500);
@@ -596,7 +669,7 @@ void playThird() //ΚΑΤΕΥΘΥΝΘΗΤΕ ΣΕ ΚΛΙΜΑΤΙΖΟΜΕΝΟΥΣ 
   delay(50);
  
 }
-void playFourth() //ΠΡΟΣΟΧΗ ΥΨΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
+void playFourth() 
 {
   execute_CMD(0x03, 0, 3);
   delay(8000);
@@ -613,7 +686,7 @@ void playsix() //ΠΡΟΣΟΧΗ ΥΨΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
  
 }
 
-void playseven() //ΠΡΟΣΟΧΗ ΥΨΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
+void playseven() 
 {
   execute_CMD(0x03, 0, 7);
   delay(14000);
@@ -621,7 +694,7 @@ void playseven() //ΠΡΟΣΟΧΗ ΥΨΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
   delay(50);
  
 }
-void playeight() //ΠΡΟΣΟΧΗ ΥΨΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
+void playeight() 
 {
   execute_CMD(0x03, 0, 8);
   delay(14000);
@@ -629,7 +702,7 @@ void playeight() //ΠΡΟΣΟΧΗ ΥΨΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
   delay(50);
  
 }
-void playnine() //ΠΡΟΣΟΧΗ ΥΨΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
+void playnine() 
 {
   execute_CMD(0x03, 0, 9);
   delay(14000);
@@ -637,7 +710,7 @@ void playnine() //ΠΡΟΣΟΧΗ ΥΨΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
   delay(50);
  
 }
-void playten() //ΠΡΟΣΟΧΗ ΥΨΗΛΗ ΘΕΡΜΟΚΡΑΣΙΑ
+void playten() 
 {
   execute_CMD(0x03, 0, 10);
   delay(4000);
