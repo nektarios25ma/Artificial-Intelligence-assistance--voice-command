@@ -37,9 +37,16 @@ Bluetooth Module for Arduino: https://grobotronics.com/bluetooth-module-for-ardu
 ΛΟΓΙΣΜΙΚΟ: ARDUINO IDE 
 ΚΑΙ MIT APP INVENTOR
 1η προσέγγιση της αναγνώρισης φωνής
-Στηρίζεται σε δύο κύρια στοιχεία : α) arduino uno με σύνδεση σε κύκλωμα που ελέγχει είτε άνοιγμα και κλείσιμο συσκευών είτε την λειτουργία ενός μικρού ρομπότ που υπακούει στις εντολές μας και ανοίγει διάλογο μαζί μας    β)smartphone app- εφαρμογή αναγνώρισης φωνής που φτιάξαμε με τεχνολογία τεχνητής νοημοσύνης. Η εφαρμογή mit app inventor του κινητού όπως και το πρόγραμμα του arduino (και η συνδεσμολογία του κυκλώματος)θα κοινοποιηθεί σε σύνδεσμο κοινής χρήσης .
-Η εφαρμογή του κινητού : https://drive.google.com/file/d/1DAyleREWb_oeiSgXCcUE1LgrkpLdOXdx/view?usp=sharing
+Στηρίζεται σε δύο κύρια στοιχεία :
+α) arduino uno με σύνδεση σε κύκλωμα που ελέγχει 
+είτε άνοιγμα και κλείσιμο συσκευών 
+είτε την λειτουργία ενός μικρού ρομπότ που υπακούει στις εντολές μας και ανοίγει διάλογο μαζί μας    β)smartphone app- εφαρμογή αναγνώρισης φωνής που φτιάξαμε με τεχνολογία τεχνητής νοημοσύνης.
+Η εφαρμογή mit app inventor του κινητού όπως και το πρόγραμμα του arduino 
+(και η συνδεσμολογία του κυκλώματος)θα τα βρείτε ως εικόνες.png .
+Η εφαρμογή του κινητού :
+https://drive.google.com/file/d/1DAyleREWb_oeiSgXCcUE1LgrkpLdOXdx/view?usp=sharing
 Α)Το πρόγραμμα του arduino για απλό έλεγχο συσκευών-led συμβολικά:
+
 #include <SoftwareSerial.h>
 SoftwareSerial BT(10, 11); //TX, RX respetively
 String readdata;
@@ -56,7 +63,7 @@ void loop() {
 while (BT.available()){  //Check if there is an available byte to read
 delay(10); //Delay added to make thing stable
 char c = BT.read(); //Conduct a serial read
-readdata += c; //build the string- "forward", "reverse", "left" and "right"  }
+readdata += c;   }
 if (readdata.length() > 0) {
 Serial.println(readdata); // print data to serial monitor
 if((readdata == "light on")|| (readdata == "Light ON"))
