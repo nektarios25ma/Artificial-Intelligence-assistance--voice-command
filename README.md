@@ -3,7 +3,8 @@ Artificial Intelligence assistance -voice command.
 Εναλλακτικά ρομπότ με αναγνώριση φωνής 
 και τεχνολογία AI το οποίο μπορεί να ανοίξει διάλογο μαζί μας και υπακούει εντολές.
 VIDEO LINK:
-https://www.youtube.com/watch?v=DS7nXjdEfVw&t=5s
+https://www.youtube.com/watch?v=EHHKBFsGerw
+
 ΚΑΙ
 https://www.youtube.com/watch?v=t6V9hQNwK7s&t=1s
 
