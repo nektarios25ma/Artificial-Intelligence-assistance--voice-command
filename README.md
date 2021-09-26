@@ -5,10 +5,6 @@ Artificial Intelligence assistance -voice command.
 VIDEO LINK:
 https://www.youtube.com/watch?v=EHHKBFsGerw
 
-ΚΑΙ
-https://www.youtube.com/watch?v=t6V9hQNwK7s&t=1s
-
-
 
  Η τεχνολογία αναγνώρισης φωνής είναι πολύ χρήσιμη στον αυτοματισμό, 
 η οποία όχι μόνο μας δίνει φωνητικό έλεγχο των συσκευών, 
