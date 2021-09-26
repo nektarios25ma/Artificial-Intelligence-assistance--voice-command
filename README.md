@@ -21,41 +21,50 @@ https://www.youtube.com/watch?v=t6V9hQNwK7s&t=1s
 ΥΛΙΚΑ
  
 2Χ BREADBOARD:
-https://www.hellasdigital.gr/electronics/prototyping/pcb-breadboard/mini-universal-solderless-breadboard-400-tie-points/
-2Χ€4,30
-arduino uno :
-https://www.hellasdigital.gr/go-create/arduino/uno-r3-atmega328p-ch340g-mini-usb-board-for-compatible-arduino-diy/
-€6,78
+https://www.hellasdigital.gr/electronics/prototyping/pcb-breadboard/mini-universal-solderless-breadboard-400-tie-points/   = 2Χ€4,30
+
+Arduino uno :
+https://www.hellasdigital.gr/go-create/arduino/uno-r3-atmega328p-ch340g-mini-usb-board-for-compatible-arduino-diy/  = €6,78 
+
 Jumper Wires :
-https://www.hellasdigital.gr/electronics/prototyping/cables-pins/40p-10cm-dupont-wire-male-to-male/
-€2,99
+https://www.hellasdigital.gr/electronics/prototyping/cables-pins/40p-10cm-dupont-wire-male-to-male/ = €2,99
+
 Μπαταριοθήκη :
-https://www.hellasdigital.gr/electronics/components/2-cells-18650-li-ion-lithium-battery-holder-w-5.52.1mm-dc-power-plug-connector/  
-€1,24
+https://www.hellasdigital.gr/electronics/components/2-cells-18650-li-ion-lithium-battery-holder-w-5.52.1mm-dc-power-plug-connector/ =  €1,24 .
+
  ΜΠΑΤΑΡΙΕΣ 18650:
  https://www.hellasdigital.gr/electronics/batteries/li-ion/panasonic-ncr18650b-battery-18650-3400mah/
-2Χ€6,99
+ = 2Χ€6,99  .
+ 
 ΣΑΣΙ ΡΟΜΠΟΤ:
-https://grobotronics.com/robot-smart-car-2wd.html                                   €12.90
+https://grobotronics.com/robot-smart-car-2wd.html  =  €12.90
+
 MOTOR DRIVER:
-https://grobotronics.com/dual-motor-driver-module-l298n.html  €4.20
+https://grobotronics.com/dual-motor-driver-module-l298n.html = €4.20
+
 MP3 Player:
-https://grobotronics.com/dfplayer-a-mini-mp3-player.html €9.90
+https://grobotronics.com/dfplayer-a-mini-mp3-player.html = €9.90
+
 Κάρτα μνήμης microSD:
-https://grobotronics.com/microsdhc-16gb-class-10-sandisk-ultra-sdsquar-sdsquar-016g-gn6ma.html €6.90
+https://grobotronics.com/microsdhc-16gb-class-10-sandisk-ultra-sdsquar-sdsquar-016g-gn6ma.html =€6.90
+
 Αισθητήρας Υπερήχων:
-https://grobotronics.com/ultrasonic-sensor-sr04.html €2.50
+https://grobotronics.com/ultrasonic-sensor-sr04.html = €2.50
+
 Βάση Στήριξης για Αισθητήρα Υπερήχων:
-https://grobotronics.com/mounting-bracket-for-ultrasonic-sensor.html €0.60
+https://grobotronics.com/mounting-bracket-for-ultrasonic-sensor.html =€0.60
+
 Servo : 
-https://grobotronics.com/servo-micro-2.2kg.cm-plastic-gears-waveshare-sg90.html €3.60
+https://grobotronics.com/servo-micro-2.2kg.cm-plastic-gears-waveshare-sg90.html =€3.60
 
 Σερβο βραχίονα στήριξης για servo SG90: 
-https://grobotronics.com/servo-mounting-bracket-sg90.html €0.80
+https://grobotronics.com/servo-mounting-bracket-sg90.html  = €0.80
 Μικρό ηχείο: 
 https://www.hellasdigital.gr/electronics/components/8-0.5w-small-trumpet-36mm-diameter-loudspeaker/ €1,20 
+
 Spacer Ποικιλία : 
-https://www.hellasdigital.gr/electronics/prototyping/brass-buttons/120pcs-m3-male-female-brass-standoff-spacer-assortment-for-pcb/  €9,98
+https://www.hellasdigital.gr/electronics/prototyping/brass-buttons/120pcs-m3-male-female-brass-standoff-spacer-assortment-for-pcb/ = €9,98
+
 Bluetooth Module for Arduino:
 https://grobotronics.com/bluetooth-module-for-arduino-hc05.html €6.80
 
