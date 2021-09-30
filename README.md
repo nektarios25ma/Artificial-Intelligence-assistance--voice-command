@@ -99,6 +99,13 @@ readdata="";}
 ΚΥΚΛΩΜΑ,link:
 
 https://drive.google.com/file/d/1iMu3vorPIyGFPI8DEielNVL-gAWGKdJP/view?usp=sharing
+πηγές: 
+MIT APP VOICE RECOGNITION
 
+https://www.dropbox.com/s/e1wjkqsgoqu1s3o/electrical_devices.ino?dl=0
+
+https://www.dropbox.com/s/174zp3s8d60w5o8/Voiceandbutton.aia?dl=0
+
+https://www.dropbox.com/s/2d5ibwbws0fe9ai/Voiceandbutton.apk?dl=0
 
 
